@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/menu_home"
+      android:enabled="true"
+      android:icon="@drawable/openbook"
+      android:title= "Read"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/menu_audio"
+      android:enabled="true"
+      android:icon="@drawable/apple"
+      android:title="Diet"
+      app:showAsAction="ifRoom" /> 
+  <item
+      android:id="@+id/menu_video"
+      android:enabled="true"
+      android:icon="@drawable/stethoscope"
+      android:title="Solution"
+      app:showAsAction="ifRoom" />
+</menu>
